@@ -47,7 +47,7 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 800);
+        }, 1000);
         return false;
       }
     }
@@ -63,3 +63,5 @@ $(function() {
 $('#services img').hover(
        function(){ $(this).addClass('animated pulse') },
        function(){ $(this).removeClass('animated pulse') })
+
+
