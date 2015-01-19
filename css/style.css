@@ -84,12 +84,50 @@ HERO AREA
     width: 100%;
     max-width: 900px;
 }
+.heroshot {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 960px;
+
+}
+
+@media (min-width:220px) {
+.heroshot img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 140px;
+
+}
+
+@media (min-width:320px) {
 .heroshot{
     margin-top: 20px;
     width: 100%;
-    max-width: 1030px;
+    max-width: 155px;
 
 }
+}
+
+@media (min-width:481px) {
+.heroshot{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 385px;
+
+}
+}
+
+@media (min-width:600px)  {
+.heroshot{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 385px;
+
+}
+}
+
+
+
 
 /*================================
 CLIENTS SECTION

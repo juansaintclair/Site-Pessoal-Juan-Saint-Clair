@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-          
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- ===========================
     INFO
     =========================== -->
@@ -16,8 +17,9 @@
     <!-- ===========================
     TITLE
     =========================== -->
-    <title>Drifolio Bootstrap</title><!-- This is what you see on your browser tab-->
-    
+    <title>Drifolio Bootstrap</title>
+    <!-- This is what you see on your browser tab-->
+
     <!-- ===========================
     FAVICONS
     =========================== -->
@@ -26,24 +28,24 @@
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
-     
+
     <!-- ===========================
     STYLESHEETS
-    =========================== -->    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    =========================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animate.css">
-        
+
     <!-- ===========================
     ICONS: 
     =========================== -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">    
-    
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+
     <!-- ===========================
     GOOGLE FONTS
-    =========================== -->    
+    =========================== -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -52,259 +54,326 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-  <!-- ===========================
+
+    <!-- ===========================
    GOOGLE ANALYTICS (Optional)
    =========================== -->
-    
+
     <!--Replace this line with your analytics code-->
-     
+
     <!-- Analytics end-->
-  
-   </head>
-    <body data-spy="scroll">
-       <!-- -->
-        <!-- Preloader -->
-        <div id="preloader">           
-            <div id="status">
-                <div class="loadicon icon-moustache wow tada infinite" data-wow-duration="8s"></div>
-            </div>
+
+</head>
+
+<body data-spy="scroll">
+    <!-- -->
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="loadicon icon-moustache wow tada infinite" data-wow-duration="8s"></div>
         </div>
-        
-       <header>               
+    </div>
+
+    <header>
         <!-- ===========================
         HERO AREA
         =========================== -->
-        <div id="hero">           
-            <div class="container herocontent">               
-                <h2 class="wow fadeInUp" data-wow-duration="2s">Oi! Eu sou o Juan Saint' Clair</h2><h3>e esse é o meu site</h3>
-                <h4 class="wow fadeInDown" data-wow-duration="3s">Criei esse site para que pessoas e empresas possam conhecer melhor a mim e ao meu trabalho.</h4>
+        <div id="hero">
+            <div class="container herocontent">
+                <h2 class="wow fadeInUp" data-wow-duration="2s">Oi! Eu sou o Juan Saint' Clair</h2>
+                <h3>e esse é o meu site!</h3>
+                <h4 class="wow fadeInDown" data-wow-duration="3s">Criei esse espaço para que pessoas e empresas possam conhecer melhor a mim e ao meu trabalho (que minha mãe diz ser ótimo, e ela nunca mente!).</h4>
             </div>
-            
+
             <!-- Featured image on the Hero area -->
-            <img class="heroshot wow bounceInUp" data-wow-duration="4s" src="img/hero-img2.png" alt="Featured Work">            
-        </div><!--HERO AREA END-->        
-        
+            <img class="heroshot wow bounceInUp" data-wow-duration="4s" src="img/hero-img2.png" alt="Featured Work">
+        </div>
+        <!--HERO AREA END-->
+
         <!-- ===========================
          NAVBAR START
          =========================== -->
-          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-               <div class="container">
-                   
-                      <div class="navbar-header">
-                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                           <span class="sr-only">Toggle navigation</span>
-                           <span class="icon-bar"></span>
-                           <span class="icon-bar"></span>
-                           <span class="icon-bar"></span>
-                        </button>
-                        
-                           <a class="navbar-brand" href="#hero">
-                            <!-- Replace Drifolio Bootstrap with your Site Name and remove icon-grid to remove the placeholder icon -->
-                            <span class="brandicon icon-grid"></span>
-                            <span class="brandname">Juan Saint Clair</span>
-                        </a>
-                    </div>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#hero">
+                        <!-- Replace Drifolio Bootstrap with your Site Name and remove icon-grid to remove the placeholder icon -->
+                        <span class="brandicon icon-grid"></span>
+                        <span class="brandname">Juan Saint Clair</span>
+                    </a>
+                </div>
 
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS STRAT BELOW-->
-                        <li><a href="#about"><span class="btnicon icon-user"></span>Sobre mim</a></li>
-                        <li><a href="#services"><span class="btnicon icon-cup"></span>Serviços</a></li>
-                        <li><a href="#portfolio"><span class="btnicon icon-rocket"></span>Portfolio</a></li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <!--YOUR NAVIGATION ITEMS STRAT BELOW-->
+                        <li><a href="#about"><span class="btnicon icon-user"></span>Sobre mim</a>
+                        </li>
+                        <li><a href="#services"><span class="btnicon icon-cup"></span>Serviços</a>
+                        </li>
+                        <li><a href="#portfolio"><span class="btnicon icon-rocket"></span>Portfolio</a>
+                        </li>
                         <!-- <li><a href="#testimonials"><span class="btnicon icon-bubble"></span>Depoimentos</a></li> -->
-                        
+
                         <!--don't forget to replace my email address below with yours-->
-                        <li><a href="mailto:juansaintclair@gmail.com"><span class="btnicon icon-envelope-open"></span>Contato</a></li>
-                        <li class="active"><a href="cv_juan.pdf" target="_blank"><span class="btnicon icon-cloud-download"></span>Download CV</a></li>
+                        <li><a href="mailto:juansaintclair@gmail.com"><span class="btnicon icon-envelope-open"></span>Contato</a>
+                        </li>
+                        <li class="active"><a href="cv_juan.pdf" target="_blank"><span class="btnicon icon-cloud-download"></span>Download CV</a>
+                        </li>
                     </ul>
-                
-                </div><!--.nav-collapse -->
+
+                </div>
+                <!--.nav-collapse -->
             </div>
-        </nav><!--navbar end-->        
-     </header><!--header end-->     
+        </nav>
+        <!--navbar end-->
+    </header>
+    <!--header end-->
 
     <!-- ===========================
     FEATURED CLIENTS SECTION START
     =========================== -->
-     <div id="clients">
-         <div class="container">
-             <div class="col-md-3">
-                 <h4>Alguns dos parceiros que confiam no meu trabalho:</h4>
-             </div>
-             <div class="col-md-9">
-                 <ul><!--CLIENTS LOGO-->
-                     <li><img src="img/newtemper.png" alt="New Temper"></li>
-                     <li><img src="img/fotolive.png" alt="Fotolive"></li>
-                     <li><img src="img/universo.png" alt="Universo Digital"></li>
-                     <li><img src="img/amordaterra.png" alt="Amor da Terra"></li>                     
-                 </ul><!--CLIENTS LOGO END-->
-             </div>
-         </div>
-         <hr><!-- SECTION SEPARETOR LINE -->
-     </div><!--FEATURED CLIENTS SECTION END-->
-     
-    
+    <div id="clients">
+        <div class="container">
+            <div class="col-md-3">
+                <h4>Alguns dos parceiros que confiam no meu trabalho:</h4>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <!--CLIENTS LOGO-->
+                    <li>
+                        <img src="img/newtemper.png" alt="New Temper">
+                    </li>
+                    <li>
+                        <img src="img/fotolive.png" alt="Fotolive">
+                    </li>
+                    <li>
+                        <img src="img/universo.png" alt="Universo Digital">
+                    </li>
+                    <li>
+                        <img src="img/amordaterra.png" alt="Amor da Terra">
+                    </li>
+                </ul>
+                <!--CLIENTS LOGO END-->
+            </div>
+        </div>
+        <hr>
+        <!-- SECTION SEPARETOR LINE -->
+    </div>
+    <!--FEATURED CLIENTS SECTION END-->
+
+
     <!-- ===========================
     ABOUT SECTION START
     =========================== -->
-     <div id="about" class="container">
-        
-        <!-- LEFT PART OF THE ABOUT SECTION -->
-         <div class="col-md-6">
-            <div class="row">
-             <h2 class="wow fadeInDown" data-wow-duration="2s">Oi, sou o Juan!</h2>
+    <div id="about" class="container">
 
-             <h4 class="wow fadeInUp" data-wow-duration="3s">Sou um Designer Gráfico/Desenvolvedor Front-End cujo único objetivo é dar vida aos sonhos, mostrar o verdadeiro potencial de quem quer ir além. (Ah, e minha mãe diz que eu sou lindo!) </h4>
-             
-             <p class="wow fadeInDown" data-wow-duration="3s">Me considero uma pessoa talentosa e criativa, com vasta experiência e altamente capacitado para solução de problemas com ideias criativas e dentro do orçamento.
-Trato cada serviço como se fosse o dono do negócio.
-</p>
-             <p class="wow fadeInDown" data-wow-duration="3s">Sempre busco um novo desafio, é o combustível do meu trabalho e da minha vida e também o real motivo para eu ser apaixonado pelo que faço.</p>
-             
-            
-             </div> <!-- ABOUT INFO END -->
-             
-            
+        <!-- LEFT PART OF THE ABOUT SECTION -->
+        <div class="col-md-6">
+            <div class="row">
+                <h2 class="wow fadeInDown" data-wow-duration="2s">Oi, sou o Juan!</h2>
+
+                <h4 class="wow fadeInUp" data-wow-duration="3s">Sou um Designer Gráfico/Desenvolvedor Front-End cujo único objetivo é dar vida aos sonhos, mostrar o verdadeiro potencial de quem quer ir além. (Ah, e minha mãe diz que eu sou lindo!) </h4>
+
+                <p class="wow fadeInDown" data-wow-duration="3s">Me considero uma pessoa talentosa e criativa, com vasta experiência e altamente capacitado para solução de problemas com ideias criativas e dentro do orçamento. Trato cada serviço como se fosse o dono do negócio.
+                </p>
+                <p class="wow fadeInDown" data-wow-duration="3s">Sempre busco um novo desafio, é o combustível do meu trabalho e da minha vida e também o real motivo para eu ser apaixonado pelo que faço.</p>
+
+
+            </div>
+            <!-- ABOUT INFO END -->
+
+
             <div class="myapps row">
                 <h5>Companheiros diários:</h5>
-                
-                <ul><!-- FAVORITE APP ICONS START -->
-                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="img/photoshop.svg" alt="Photoshop"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="img/illustrator.svg" alt="Illustrator"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="3s" src="img/flash.svg" alt="Adobe Flash"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="4s" src="img/indesign.svg" alt="InDesign"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="5s" src="img/brackets.svg" alt="Brackets"></li>
-                </ul><!-- FAVORITE APP ICONS END -->
+
+                <ul>
+                    <!-- FAVORITE APP ICONS START -->
+                    <li>
+                        <img class="wow animated bounceInUp" data-wow-duration="1s" src="img/photoshop.svg" alt="Photoshop">
+                    </li>
+                    <li>
+                        <img class="wow bounceInUp" data-wow-duration="2s" src="img/illustrator.svg" alt="Illustrator">
+                    </li>
+                    <li>
+                        <img class="wow bounceInUp" data-wow-duration="3s" src="img/flash.svg" alt="Adobe Flash">
+                    </li>
+                    <li>
+                        <img class="wow bounceInUp" data-wow-duration="4s" src="img/indesign.svg" alt="InDesign">
+                    </li>
+                    <li>
+                        <img class="wow bounceInUp" data-wow-duration="5s" src="img/brackets.svg" alt="Brackets">
+                    </li>
+                </ul>
+                <!-- FAVORITE APP ICONS END -->
             </div>
-         </div><!-- LEFT PART OF THE ABOUT SECTION END -->
+        </div>
+        <!-- LEFT PART OF THE ABOUT SECTION END -->
         <!--Left part end-->
-         
-         <!-- RIGHT PART OF THE ABOUT SECTION -->
-         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
-             <img src="img/user.png" alt="Mamun Srizon">
-         </div><!-- RIGHT PART OF THE ABOUT SECTION END -->        
-     </div><!-- ABOUT SECTION END -->
-        
-    <hr><!-- SECTION SEPARETOR LINE -->
-        
+
+        <!-- RIGHT PART OF THE ABOUT SECTION -->
+        <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
+            <img src="img/user.png" alt="Mamun Srizon">
+        </div>
+        <!-- RIGHT PART OF THE ABOUT SECTION END -->
+    </div>
+    <!-- ABOUT SECTION END -->
+
+    <hr>
+    <!-- SECTION SEPARETOR LINE -->
+
     <!-- ===========================
     SERVICE SECTION START
     =========================== -->
     <div id="services" class="container">
-       
+
         <!-- SERVICE SECTION HEADING START -->
         <div class="sectionhead  row wow fadeInUp">
             <span class="bigicon icon-cup "></span>
             <h3>Olha só o que eu posso fazer por você</h3>
             <hr class="separetor">
-         </div><!--SERVICE SECTION HEADING END-->
-         
+        </div>
+        <!--SERVICE SECTION HEADING END-->
+
         <!-- SERVICE ITEMS START -->
         <div class="row">
-               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s1.png" alt="">
-                   <h4>Sites Responsivos</h4>
-                   <p>Sabe aqueles sites que se adaptam automaticamente a cada dispositivo?, seja celular, tablet, computador? Então!</p>
-                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                <img src="img/s1.png" alt="">
+                <h4>Sites Responsivos</h4>
+                <p>Sabe aqueles sites que se adaptam automaticamente a cada dispositivo?, seja celular, tablet, computador? Então!</p>
+            </div>
+            <!-- ITEM END -->
 
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s2.png" alt="">
-                   <h4>Identidade Visual</h4>
-                   <p>Sua marca tem potêncial, precisa mostrar isso pro mercado! Não adianta ser bom, tem que parecer bom, e eu vou te ajudar com isso!</p>
-                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                <img src="img/s2.png" alt="">
+                <h4>Identidade Visual</h4>
+                <p>Sua marca tem potêncial, precisa mostrar isso pro mercado! Não adianta ser bom, tem que parecer bom, e eu vou te ajudar com isso!</p>
+            </div>
+            <!-- ITEM END -->
 
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s3.png" alt="">
-                   <h4>E-mail Marketing</h4>
-                   <p>Chega de e-mail lindos caindo na caixa de spam! Desde o layout à programação, e-mail marketing chegando direitinho pro cliente é pura diversão!</p>
-                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                <img src="img/s3.png" alt="">
+                <h4>E-mail Marketing</h4>
+                <p>Chega de e-mail lindos caindo na caixa de spam! Desde o layout à programação, e-mail marketing chegando direitinho pro cliente é pura diversão!</p>
+            </div>
+            <!-- ITEM END -->
 
-               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s4.png" alt="">
-                   <h4>SEO</h4>
-                   <p>Cresça e apareça! Seu site precisa de boas práticas para ganhar notoriedade nos mecanismos de busca.</p>
-                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                <img src="img/s4.png" alt="">
+                <h4>SEO</h4>
+                <p>Cresça e apareça! Seu site precisa de boas práticas para ganhar notoriedade nos mecanismos de busca.</p>
+            </div>
+            <!-- ITEM END -->
 
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s5.png" alt="">
-                   <h4>Consultoria em Branding</h4>
-                   <p>Acredite no poder da sua marca, o céu é o limite, vamos trabalhar juntos, minha experiência e minhas dicas vão fazer as pessoas terem uma visão melhor da sua marca.</p>
-                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                <img src="img/s5.png" alt="">
+                <h4>Consultoria em Branding</h4>
+                <p>Acredite no poder da sua marca, o céu é o limite, vamos trabalhar juntos, minha experiência e minhas dicas vão fazer as pessoas terem uma visão melhor da sua marca.</p>
+            </div>
+            <!-- ITEM END -->
 
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                   <img src="img/s6.png" alt="">
-                   <h4>Design para impressos</h4>
-                   <p>Imagina um trabalho lindo com a furação em cima da ilustração principal. Pode contar comigo pra isso não acontecer.</p>
-                </div> <!-- ITEM END -->
-        </div><!-- SERVICE ITEMS END-->
-    </div><!-- SERVICE SECTION END -->
-    
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                <img src="img/s6.png" alt="">
+                <h4>Design para impressos</h4>
+                <p>Imagina um trabalho lindo com a furação em cima da ilustração principal. Pode contar comigo pra isso não acontecer.</p>
+            </div>
+            <!-- ITEM END -->
+        </div>
+        <!-- SERVICE ITEMS END-->
+    </div>
+    <!-- SERVICE SECTION END -->
+
     <!-- ===========================
     PORTFOLIO SECTION START
     =========================== -->
     <div id="portfolio">
         <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-          <span class="bigicon icon-rocket"></span>
-           <h3>Alguns dos meus trabalhos mais recentes</h3>
-           <hr class="separetor">            
-        </div><!-- PORTFOLIO SECTION HEAD END -->   
-        
+            <span class="bigicon icon-rocket"></span>
+            <h3>Alguns dos meus trabalhos mais recentes</h3>
+            <hr class="separetor">
+        </div>
+        <!-- PORTFOLIO SECTION HEAD END -->
+
         <!-- PORTFOLIO ITEMS START -->
         <div class="portfolioitems container">
             <div class="row behance"></div>
-        </div><!-- PORTFOLIO ITEMS END -->
-        
+        </div>
+        <!-- PORTFOLIO ITEMS END -->
+
         <!--Replace the URL below with your dribbble profile URL-->
         <a class="btn btn-default wow fadeInUp" href="https://www.behance.net/juansaintclair" role="button">
             <span class="btnicon icon-social-behance"></span>
             <span class="button_text">Ver portifólio completo</span>
-        </a> 
-    </div><!-- PORTFOLIO SECTION END -->
-       
-      
+        </a>
+    </div>
+    <!-- PORTFOLIO SECTION END -->
+
+
     <footer>
         <div class="container">
             <span class="bigicon icon-speedometer "></span>
-             
-            <div class="footerlinks"><!-- FOOTER LINKS START -->            
+
+            <div class="footerlinks">
+                <!-- FOOTER LINKS START -->
                 <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">Sobre mim</a></li>
-                    <li><a href="#services">ServiÇos</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#hero">Home</a>
+                    </li>
+                    <li><a href="#about">Sobre mim</a>
+                    </li>
+                    <li><a href="#services">ServiÇos</a>
+                    </li>
+                    <li><a href="#portfolio">Portfolio</a>
+                    </li>
                     <!-- <li><a href="#testimonials">Depoimentos</a></li> -->
 
                     <!--replace the email address below with your email address-->
-                    <li><a href="mailto:m@creatrix.us">Contato</a></li>
+                    <li><a href="mailto:m@creatrix.us">Contato</a>
+                    </li>
                 </ul>
-            </div><!-- FOOTER LINKS END -->
-             
-            <div class="copyright"><!-- FOOTER COPYRIGHT START -->
+            </div>
+            <!-- FOOTER LINKS END -->
+
+            <div class="copyright">
+                <!-- FOOTER COPYRIGHT START -->
                 <p>Esse é meu site pessoal, você pode baixar meu currículo <a href="cv_juan.pdf" target="_blank">aqui</a>, ver meu portfolio completo <a href="https://www.behance.net/juansaintclair" target="_blank">aqui</a> e meu linkedin <a href="https://www.linkedin.com/profile/view?id=73013563&trk=nav_responsive_tab_profile">aqui</a>. Se tiver alguma dúvida, fique a vontade pra me enviar um e-mail, se quiser entrar em contato por alguma rede social, só clicar nos links abaixo.</p>
-            </div><!-- FOOTER COPYRIGHT END -->
-             
-            <div class="footersocial wow fadeInUp" data-wow-duration="3s"><!-- FOOTER SOCIAL ICONS START -->
+            </div>
+            <!-- FOOTER COPYRIGHT END -->
+
+            <div class="footersocial wow fadeInUp" data-wow-duration="3s">
+                <!-- FOOTER SOCIAL ICONS START -->
                 <ul>
-                    <li><a href="https://www.facebook.com/juansaintclair"><span class="icon-social-facebook"></span></a></li>
-                    <li><a href="https://twitter.com/juanstclair"><span class="icon-social-twitter"></span></a></li>
-                 </ul>
-             </div><!-- FOOTER SOCIAL ICONS END -->
-         </div>
-     </footer><!-- FOOTER END -->
-    
+                    <li><a href="https://www.facebook.com/juansaintclair"><span class="icon-social-facebook"></span></a>
+                    </li>
+                    <li><a href="https://twitter.com/juanstclair"><span class="icon-social-twitter"></span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- FOOTER SOCIAL ICONS END -->
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    
-   
-   <!-- <script src="js/jquery.nicescroll.min.js"></script> -->
-  <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
-   <script src="js/drifolio.js"></script> 
+
+
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
+    <script src="js/drifolio.js"></script>
     <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>    
+    <script>new WOW().init();</script>
     <script src="js/regra.js"></script>
- 
+
 </body>
+
 </html>
